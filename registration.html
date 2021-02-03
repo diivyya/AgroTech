@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page
+		</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<form action="registration.php" method="post">
+	<div class="loginbox">
+	<img src="avatar.png" class="avatar">
+	<fieldset>
+		<legend><h1>Registration Form</h1></legend>
+		<p1><label for="fname">Enter First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Enter Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="gender">Select Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required> 
+        <label for="other">Other</label><br><br>
+        <label for="date">Enter Date of Birth: </label><br>
+        <input type="date" id="dob" name="dob" required><br>
+         <label for="email_id">Enter Email ID:</label><br>
+        <input type="text" id="email_id" name="email_id" required><br>
+        <label for="password">Enter Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="cpassword">Confirm Password:</label><br>
+        <input type="password" id="cpassword" name="cpassword" required><br></p1>
+        <input type="submit" id="submit" name="submit"><br>
+        Already a user?<br> Login <a href="login.html"> here</a> 
+        </fieldset>
+       </form>
+   </div>
+   <br><br>
+Go back to home page<br>
+Click<a href="main_page.html"> here</a>
+</body>
+</html>
